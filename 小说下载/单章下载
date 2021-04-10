@@ -1,0 +1,29 @@
+import requests
+import parsel
+import re
+import time
+
+def change_title(title):
+    mode = re.compile(r'[\\\/\:\*\?\"\<\>\|]')
+    file_name = re.sub(mode, '_', title)
+    return file_name
+
+
+def get(url):
+    headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.54'}
+    r = requests.get(url=url,headers=headers)
+    selector = parsel.Selector(r.text)
+    txt = selector.xpath('//div[@class=\'content_read\']/div[@class=\'box_con\']/div[@id=\'content\']').get()
+    file_name = selector.xpath('//div[@class=\'bookname\']/h1').get()
+    print('正在下载',file_name[4:-5], end='')
+    title = change_title(file_name[4:-5])
+    with open(title + '.txt','wb') as f:
+        f.write(txt.encode('utf-8'))
+    print('--------已下载')
+
+
+url = input('请输入网址：')
+s = time.time()
+get(url=url)
+e = time.time()
+print('共用时：',int(e-s), '秒')
