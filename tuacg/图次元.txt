@@ -1,0 +1,41 @@
+请求 URL: https://www.tuacg.com/wp-json/b2/v1/getUserMission
+请求方法: POST
+状态代码: 200 
+远程地址: 180.215.206.199:443
+引用站点策略: strict-origin-when-cross-origin
+access-control-allow-credentials: true
+access-control-allow-headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+access-control-allow-methods: OPTIONS, GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin: https://www.tuacg.com
+access-control-expose-headers: X-WP-Total, X-WP-TotalPages, Link
+allow: POST
+cache-control: no-cache, must-revalidate, max-age=0
+content-type: application/json; charset=UTF-8
+date: Sat, 10 Apr 2021 00:04:00 GMT
+expires: Wed, 11 Jan 1984 05:00:00 GMT
+link: <https://www.tuacg.com/wp-json/>; rel="https://api.w.org/"
+server: nginx
+strict-transport-security: max-age=31536000
+vary: Accept-Encoding, Cookie
+vary: Origin
+x-content-type-options: nosniff
+x-robots-tag: noindex
+:authority: www.tuacg.com
+:method: POST
+:path: /wp-json/b2/v1/getUserMission
+:scheme: https
+accept: application/json, text/plain, */*
+accept-encoding: gzip, deflate, br
+accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnR1YWNnLmNvbSIsImlhdCI6MTYxNzQ1NjUxOCwibmJmIjoxNjE3NDU2NTE4LCJleHAiOjE2MTg2NjYxMTgsImRhdGEiOnsidXNlciI6eyJpZCI6IjQ0ODMifX19.IAEu06N1T2OzNDD6X83u7L2wWEWPP8ZuPnCwojtx4JI
+content-length: 15
+content-type: application/x-www-form-urlencoded
+cookie: b2_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvd3d3LnR1YWNnLmNvbSIsImlhdCI6MTYxNzQ1NjUxOCwibmJmIjoxNjE3NDU2NTE4LCJleHAiOjE2MTg2NjYxMTgsImRhdGEiOnsidXNlciI6eyJpZCI6IjQ0ODMifX19.IAEu06N1T2OzNDD6X83u7L2wWEWPP8ZuPnCwojtx4JI; wordpress_logged_in_3128f388d9ecc702138fc5e6e2beeda9=4483.516.a0b5dd434cb4de1f3da93df9c39659f9%7C1618061323%7CDYjAtU28rTKp47Z7yn5rNFnV6gaVl99bw2wQ388bmWB%7C1f41bb2d4620b7cc94b183504325762eb3536401cc5508219448e8fcc40bf4d5; wp_xh_session_3128f388d9ecc702138fc5e6e2beeda9=02e3165536c3e963fa311d3a9c67f955%7C%7C1618136679%7C%7C1618133079%7C%7C6620e41c0b45742aba727ce14af9b66d; PHPSESSID=kidnuu0ht77ggmmiq7nmhie109
+origin: https://www.tuacg.com
+referer: https://www.tuacg.com/792.html
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-origin
+user-agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 Edg/89.0.774.68
+count: 6
+paged: 1
